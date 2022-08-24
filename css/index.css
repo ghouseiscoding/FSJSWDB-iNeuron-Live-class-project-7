@@ -199,7 +199,7 @@ h3{
 
 @media screen and (max-width: 480px){
     body{
-        
+        max-width: 480px;
     }
 
     nav{
@@ -209,14 +209,130 @@ h3{
     .intro-section{
         display: flex;
         flex-direction: column;
-
+        margin: 0 20px;
         width: 100vw;
+    }
+
+    h3{
+        font-family: 'poppins', sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .left-section>h3>img{
+        width: 30px;
+    }
+
+    .left-section>h1{
+        font-size: 40px;
+        font-weight: 400;
+        margin: 0 0 15px;
+    }
+
+    .sub-headline{
+        font-family: 'poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 0 0 10px;        
+    }
+
+    .sub-headline>img{
+        background-color: #FE5E35;
+        border-radius: 12px;
+        width: 8px;
+        margin-right: 6px;
+        padding: 5px;
     }
 
     .text{
         width: auto;
+        font-size: 10px;
     }
 
+    .sub-headlines{
+        margin: 0;
+        width: auto;
+    }
 
+    .action-btns{
+        margin: 0 auto 30px;
+    }
 
+    .right-section{
+        
+        margin: auto;
+    }
+    
+    .discount{
+        position: relative;
+        /* color: #fff; */
+        top: 200px;
+        left: -150px;
+        width: 7rem;
+    } 
+    
+    .discount-content{
+        font-family: 'fredoka One', sans-serif;
+        position: relative;
+        color: #fff;
+        top: 130px;
+        left: -10px;
+        /* text-align: center; */
+    }
+    
+    .discount-content>h4{
+        font-size: 12px;
+        font-weight: 100;
+    
+    }
+    
+    .discount-content>h1{
+        font-size: 40px;
+    }
+
+    .headphone-div{
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+    
+    .headphone-div>img:nth-child(3){
+        width: 80vw;
+        margin-left: 2%;
+        margin-top:-200px;
+    }
+    
+    .right-section .action-btn{
+        margin: 0 140px ;
+    }
+    
+    .dots{
+        display: flex;
+        /* margin-left: 140px; */
+        /* margin-bottom: 20px; */
+    }
+    
+    .dot{
+        background-color: #000;
+        height: 20px;
+        width: 20px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .action-btn{
+        padding: 10px 10px;
+        background-color: #FE5E35;
+        color: #fff;
+        font-family: 'poppins', sans-serif;
+        border: none;
+        border-radius: 50px;
+        margin-left: 20px;
+        font-size: 10px;
+    }
+
+    .right-section .action-btn{
+        margin: 0 ;
+    }
 }
